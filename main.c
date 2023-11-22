@@ -6,7 +6,7 @@ int main(int argc, char **argv)
     char first[255], last[255];
 
     printf("Введи имя: ");
-    fgets(first, 225, stdin);
+    fgets(first, 200, stdin);
     first[strlen(first)-1] = '\0'; /* remove the newline at the end */
     
     printf("А теперь фамилию: "); 
